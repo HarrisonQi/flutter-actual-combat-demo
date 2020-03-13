@@ -96,7 +96,10 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: pages[_currentNavIndex],
+      body: PageView(
+        children: pages,
+        onPageChanged: (index) => _changeCurrentNavIndex(index),
+      ),
       bottomNavigationBar: BottomNavigationBar(
           items: barItems,
           // 当前下标
