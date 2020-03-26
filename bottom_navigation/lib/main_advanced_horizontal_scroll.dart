@@ -83,12 +83,16 @@ class _MyHomePageState extends State<MyHomePage> {
   /// 当前选中的导航下标, 默认第一个
   int _currentNavIndex = 0;
 
+  /// pageView控制器
+  PageController _pageViewController = PageController();
+
   // 当点击导航栏按钮时, 触发此函数
   void _changeCurrentNavIndex(int index) {
     // 细节: 当用户点击的导航和当前一致, 则不发生变化, 节省系统资源
     if (index != _currentNavIndex) {
       // 切换导航下标
       _currentNavIndex = index;
+      _pageViewController.jumpToPage(index);
       setState(() {});
     }
   }
@@ -97,6 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: PageView(
+        controller: _pageViewController,
         children: pages,
         onPageChanged: (index) => _changeCurrentNavIndex(index),
       ),
