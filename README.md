@@ -6,3 +6,8 @@
 - [Flutter 数据存储 SharedPreferences](https://www.bugcatt.com/archives/165)
 - [Flutter 国际化: 多语言处理(Easy localization)](https://www.bugcatt.com/archives/847)
 - [Flutter Toast、弹出提示、轻提示](https://www.bugcatt.com/archives/1179)
+
+# 加速下载
+码云和Github代码实时同步, 你可以根据网络选择不同的仓库:
+- [Github](https://github.com/HarrisonQi/flutter-actual-combat-demo)
+- [码云](https://gitee.com/HarrisonQI/flutter-actual-combat-demo)
