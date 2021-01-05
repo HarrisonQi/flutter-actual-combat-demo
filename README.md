@@ -12,3 +12,9 @@
 码云和Github代码实时同步, 你可以根据网络选择不同的仓库:
 - [Github](https://github.com/HarrisonQi/flutter-actual-combat-demo)
 - [码云](https://gitee.com/HarrisonQI/flutter-actual-combat-demo)
+
+## Personal wechat
+
+Wechat ID: bugcatt
+
+![Wechat](/qrcode.png)
